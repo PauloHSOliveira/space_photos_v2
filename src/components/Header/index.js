@@ -1,9 +1,15 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Title } from './styles';
 
 function Header() {
-  return <Container>Teste</Container>;
+  return (
+    <Container>
+      <Title>
+        SPACE PHOTOS
+      </Title>
+
+    </Container>)
 }
 
 export default Header;

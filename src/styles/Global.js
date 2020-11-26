@@ -9,7 +9,8 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
   body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-color: #000;
   }`;
 
 export default GlobalStyles;
